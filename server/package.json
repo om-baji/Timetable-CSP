@@ -1,0 +1,21 @@
+{
+  "name": "course-project",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "bipartite-matching": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "scripts": {
+    "start": "bun --watch index.ts"
+  }
+}

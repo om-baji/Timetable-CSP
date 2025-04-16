@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd client && pnpm run dev\" \"cd server && bun start\""  
+    "start": "concurrently \"cd client && pnpm run dev\" \"cd server && bun start\"" ,
+    "preinstall": "cd client && pnpm install && cd .. && cd server && pnpm install"
   },
   "keywords": [],
   "author": "",
